@@ -44,6 +44,6 @@ COPY gunicorn.config.py /app/gunicorn.config.py
 
 WORKDIR /app
 
-EXPOSE 80 443 8080
+EXPOSE 80 443
 
 CMD ["/usr/bin/supervisord"]
