@@ -21,8 +21,8 @@ You can include a custom Gunicorn configuration file into your application. By d
 Here is an example of a Dockerfile using that image :
 
 ```
-FROM matthieugouel/python-gunicorn-nginx:latest
-MAINTAINER Matthieu Gouel <matthieu.gouel@gmail.com>
+FROM alexsnow348/python-gunicorn-nginx:latest
+MAINTAINER Alex Snow <alexsnow348@gmail.com>
 
 # Copy the application
 COPY . /app
